@@ -1,0 +1,48 @@
+{
+  "rooms": [
+    [
+      {
+        "id": "101",
+        "capacity": 2,
+        "luxuryRate": 5,
+        "occupants": [
+          {
+            "name": "John Doe"
+          },
+          {
+            "name": "Jane Doe"
+          }
+        ]
+      },
+      {
+        "id": "102",
+        "capacity": 3,
+        "luxuryRate": 4,
+        "occupants": []
+      }
+    ],
+    [
+      {
+        "id": "201",
+        "capacity": 2,
+        "luxuryRate": 5,
+        "occupants": [
+          {
+            "name": "Alice Smith"
+          }
+        ]
+      }
+    ]
+  ],
+  "rates": [
+    {
+      "perNight": 100,
+      "luxuryRate": 5
+    },
+    {
+      "perNight": 80,
+      "luxuryRate": 4
+    }
+  ],
+  "name": "Grandiose Hotel"
+}
